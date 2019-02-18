@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV CONFIG_JSON1=none CONFIG_JSON2=none UUID=626c057f-5407-4ce9-b85c-3a23a7d25b8f CONFIG_JSON3=none CERT_PEM=none KEY_PEM=none VER=4.13.0 
+ENV CONFIG_JSON1=none CONFIG_JSON2=none UUID=626c057f-5407-4ce9-b85c-3a23a7d25b8f CONFIG_JSON3=none CERT_PEM=none KEY_PEM=none VER=4.16.0 
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && mkdir -m 777 /v2raybin \ 
